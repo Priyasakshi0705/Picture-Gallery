@@ -1,0 +1,83 @@
+body{
+    text-align: center;
+}
+#Home img{
+    width:1000px;
+    padding-bottom: 50px;
+}
+#Home h1{
+    
+    font-family:'Inknut Antiqua', serif;
+    font-size: 30px;
+}
+
+#Home{
+    padding: 30px;
+    
+    background:linear-gradient(lightgreen 40%, teal 60%);
+    z-index: 9;
+}
+#Grid{
+   
+   padding-top: 20px;
+    padding-bottom: 25px;
+    margin-top: 50px;
+    background:linear-gradient(silver 40%,salmon 60%);
+}
+
+#Grid h1{
+    font-size: 40px;
+    font-family: monospace
+}
+
+.menu{
+    position:fixed;
+    top: 0;
+    margin-top:0px;
+    z-index: 10;
+        list-style:none;
+     background-color:darksalmon;
+    width: 100%;
+}
+
+.links {
+    font-family: fantasy;
+    font-size: 30px;
+    
+    display: inline;
+    padding: 45px;
+    cursor: pointer;
+    
+    
+   
+}
+.menu a{
+    color:cornsilk;
+}
+ 
+.menu a:hover {
+    text-decoration: underline;
+    font-size: 35px;
+    color:  cornsilk !important;
+  
+}
+    
+#Sliding{
+    padding-top: 20px;
+    padding-bottom: 25px;
+    margin-top: 50px;
+    background:  linear-gradient(deepskyblue 40%,salmon 60%);
+}
+#Grid img{
+     width: 300px;
+    height:190px;
+    padding: 20px;
+}
+#Sliding img{
+    height:300px;
+    width:300px;
+}
+.container{
+    background-color:linear-gradient(deepskyblue 40%,salmon 60%);
+    padding: 20px;
+}
